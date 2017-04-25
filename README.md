@@ -1,6 +1,6 @@
 # npmtest-mraa
 
-#### test coverage for  [mraa (v1.6.1)](http://github.com/intel-iot-devkit/mraa)  [![npm package](https://img.shields.io/npm/v/npmtest-mraa.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mraa) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mraa.svg)](https://travis-ci.org/npmtest/node-npmtest-mraa)
+#### basic test coverage for  [mraa (v1.6.1)](http://github.com/intel-iot-devkit/mraa)  [![npm package](https://img.shields.io/npm/v/npmtest-mraa.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mraa) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mraa.svg)](https://travis-ci.org/npmtest/node-npmtest-mraa)
 
 #### IO library that helps you use I2c, SPI, gpio, uart, pwm, analog inputs (aio) and more on a number of platforms such as the Intel galileo, the Intel edison and others
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mraa/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mraa/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mraa/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mraa/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mraa/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mraa/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mraa/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mraa/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mraa/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mraa/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mraa/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mraa/build/coverage.html/index.html)
 
@@ -76,7 +76,8 @@
     "scripts": {
         "install": "node-gyp rebuild"
     },
-    "version": "1.6.1"
+    "version": "1.6.1",
+    "bin": {}
 }
 ```
 
